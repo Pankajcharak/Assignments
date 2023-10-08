@@ -1,0 +1,2 @@
+These are the in < > brackets. For example, <b> and </b> are tags.
+And They start with a tag, have content, and end with a tag. For example, <b>This is bold text.</b> are element

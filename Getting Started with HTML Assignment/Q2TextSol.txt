@@ -1,0 +1,3 @@
+In HTML, comments are like invisible notes in code. They help us to understand the code but don’t show up in the browser.
+To comment in vscode, we use shortcut key ctrl+/ also its possible to do manually 
+<!-- Write your comments here -->
