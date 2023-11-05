@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up/Register</h1>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="firstName" required minlength="3" maxlength="20" /><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastName" required minlength="3" maxlength="20" /><br>
+        <label>Email:</label>
+        <input type="email" name="email" required /><br>
+        <label>Password:</label>
+        <input type="password" name="password" required minlength="8" /><br>
+        <label>Confirm Password:</label>
+        <input type="password" name="confirmPassword" required /><br>
+        <label>Age:</label>
+        <input type="number" name="age" required min="0" max="150" /><br>
+        <label>Gender:</label>
+        <input type="radio" value="male" name="gender" checked />
+        <label>Male</label>
+        <input type="radio" value="female" name="gender" />
+        <label>Female</label>
+        <input type="radio" value="other" name="gender" />
+        <label>Other</label><br>
+        <label>Terms:</label>
+        <input type="checkbox" required /> I agree to terms and conditions<br>
+        <button type="submit">Register</button>
+        </form>
+      
+
+        <h1>Sign/Login in Form</h1>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required /><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required minlength="8" /><br>
+            <button type="submit">Sign In</button>
+            </form>
+</body>
+</html>
+
